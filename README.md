@@ -1,61 +1,87 @@
-# Agentic AI Web Scraper
+Agentic AI Web Scraper
 
-## Project Overview
-Agentic AI Web Scraper is a Python desktop application that can:
-1. Scrape textual content from any website.
-2. Store meaningful paragraphs.
-3. Answer user questions intelligently using OpenAI GPT models.
+An **Agentic AI Web Scraper** that extracts website content and allows users to ask intelligent questions using an AI language model.  
+The project combines **web scraping**, **agent-based reasoning**, and a **modern UI** built with web technologies.
 
-The tool combines web scraping, AI question answering, and a GUI interface for interactive use.
+ Project Overview:
 
----
+This application scrapes textual content from a given website and stores it as internal knowledge.  
+An AI agent then uses this stored data to answer user questions in natural language.
 
-## Features
-- Scrape website content automatically.
-- Ask natural language questions about the scraped content.
-- Controlled memory: limits context for faster AI responses.
-- User-friendly GUI using Tkinter.
-- Error handling for invalid URLs and empty inputs.
+The system demonstrates how **Agentic AI** can be used to build intelligent tools that observe, store, reason, and respond.
 
 ---
 
-## Technical Stack
-| Component | Technology | Role |
-|-----------|------------|------|
-| Web Scraping | `requests` + `BeautifulSoup` | Fetch and parse website content |
-| AI Agent | `openai` GPT-4o-mini | Generates answers to user questions |
-| GUI | Tkinter | User interface for input and output |
-| Environment Management | `python-dotenv` | Stores API keys securely |
+ Key Features:
+
+   Website content scraping
+   Agentic AI-based question answering
+   Context-aware responses
+   Modern UI with gradient background and cards
+   Fast and lightweight backend
+   Beginner-friendly Python implementation
 
 ---
 
-## Installation & Setup
+ Technical Stack
+ Frontend:
+- HTML
+- CSS (gradient UI, glassmorphism)
+- JavaScript
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/username/AgenticAI-WebScraper.git
-cd AgenticAI-WebScraper
+ Backend:
+- Python
+- Flask
 
-2.Create and activate a virtual environment
+ Web Scraping:
+- Requests
+- BeautifulSoup
 
-3.Install dependencies
-pip install -r requirements.txt
+ AI Model:
+- OpenAI GPT-4o-mini
 
-4. Setup OpenAI API key
-Create a .env file:
-    OPENAI_API_KEY=your_openai_api_key_here
-5.Run the program
-    python main.py
+---
+ AI & Agent Description:
 
-Usage
-1. Enter the website URL and click Scrape Website.
-2. Wait for the message confirming the paragraphs were stored.
-3. Enter your question and click Ask Agent.
-4. The AI will provide a concise answer in the output box.
+The project uses a custom rule-based agentic AI model.  
+The agent performs the following steps:
 
-Future Enhancements:
-Add multi-page scraping.
-Summarization and keyword extraction.
-Offline AI model support.
-Improved GUI styling and UX.
+1. Scrapes website data (Perception)
+2. Stores relevant content as memory
+3. Selects important context
+4. Uses a Large Language Model to generate answers
+
+The Large Language Model used is **GPT-4o-mini**, which generates natural language responses based on the scraped context.
+
+---
+
+ Project Structure:
+Agentic-AI-Web-Scraper/
+│
+├── app.py
+├── templates/
+│ └── index.html
+├── static/
+│ ├── style.css
+│ └── script.js
+
+ How It Works:
+
+1.Enter a website URL
+2.Click Scrape Website
+3.The agent stores website knowledge
+4.Ask any question related to the website
+5.The AI agent responds intelligently
+
+Program setup:
+ > Backend setup and web scraping
+ > AI model integration and testing
+ > UI design and frontend-backend integratio
+
+Conclusion:
+
+This project shows how Agentic AI systems can be built using simple tools and structured logic.
+It combines AI, web scraping, and modern UI design into a practical and educational application.
+
+
 
