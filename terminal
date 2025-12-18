@@ -1,0 +1,4 @@
+create python environment 
+pip install flask requests beautifulsoup4 python-dontenv openai
+pip show flask #to confirm if flask installed
+python app.py
