@@ -1,13 +1,14 @@
- AI Agent Integration: 
+ AI Agent Integration_ Day 2 
 
-Infused OpenAI GPT llm into the backend(python+flask)
+1.Infused OpenAI GPT llm into the backend(python+flask)
 
-Then designed the AI agent to scrap the content as context.
-Designed the AI agent such that it asnwers relevent to question asked.
+2.Then designed the AI agent to scrap the content as context.
 
-Did testing for checking relevance.
+3.Designed the AI agent such that it asnwers relevent to question asked.
 
-Updated code errors for better output.
+4.Did testing for checking relevance.
 
-The system works perfectly by answering the queries raised
+5.Updated code errors for better output.
+
+6.The system works perfectly by answering the queries raised
 
