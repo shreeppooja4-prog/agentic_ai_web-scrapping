@@ -1,0 +1,52 @@
+file: index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Agentic AI Web Scraper</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<!-- ===== TOP APP BAR ===== -->
+<div class="app-bar">
+  <div class="app-title">🤖 Agentic AI Web Scraper</div>
+  <div class="menu">
+    <span>File</span>
+    <span>Tools</span>
+    <span>Help</span>
+  </div>
+</div>
+
+<!-- ===== MAIN WINDOW ===== -->
+<div class="window">
+
+  <!-- URL SECTION -->
+  <div class="card">
+    <h3>🌐 Website Input</h3>
+    <input id="url" placeholder="Enter website URL">
+    <button class="primary" onclick="scrapeWebsite()">🔍 Scrape Website</button>
+  </div>
+
+  <!-- QUESTION SECTION -->
+  <div class="card">
+    <h3>💬 Ask the Agent</h3>
+    <input id="question" placeholder="Ask a question from scraped data">
+    <button class="secondary" onclick="askAgent()">🧠 Ask Agent</button>
+  </div>
+
+  <!-- OUTPUT SECTION -->
+  <div class="card output-card">
+    <h3>📄 Agent Output</h3>
+    <div id="output" class="output-box">
+      Waiting for input...
+    </div>
+  </div>
+
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
