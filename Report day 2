@@ -1,0 +1,13 @@
+ AI Agent Integration: 
+
+Infused OpenAI GPT llm into the backend(python+flask)
+
+Then designed the AI agent to scrap the content as context.
+Designed the AI agent such that it asnwers relevent to question asked.
+
+Did testing for checking relevance.
+
+Updated code errors for better output.
+
+The system works perfectly by answering the queries raised
+
