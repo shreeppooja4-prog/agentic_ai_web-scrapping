@@ -1,0 +1,13 @@
+Day 1 – Planning & Backend Setup
+
+1. Finalized the project idea and defined clear objectives.
+
+2. Designed the overall system architecture connecting the frontend, backend, and AI agent.
+
+3. Set up the Python environment and organized the project structure.
+
+4. Implemented website scraping using Requests and BeautifulSoup.
+
+5. Successfully extracted and stored textual data from websites for further processing.
+
+6. In short , A functional backend was developed that can reliably scrape and store website content.
