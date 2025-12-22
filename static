@@ -1,4 +1,4 @@
-FILE : app.js
+FILE : script.js
 
 function scrapeWebsite() {
   const url = document.getElementById("url").value;
@@ -35,7 +35,7 @@ function askAgent() {
 }
 
 
-FILE: styles.css
+FILE: style.css
 
 * {
   box-sizing: border-box;
